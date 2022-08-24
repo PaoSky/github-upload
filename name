@@ -1,3 +1,7 @@
 $ touch .gitignore
 $ git rm --cached name
 $ git config --global core.excludesfile ~/.gitignore_global
+git remote add origin https://github.com/PaoSky/github-upload.git
+git add .
+git commit -m "initializing repository"
+git push -u origin main
