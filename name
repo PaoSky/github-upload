@@ -1,0 +1,3 @@
+$ touch .gitignore
+$ git rm --cached name
+$ git config --global core.excludesfile ~/.gitignore_global
